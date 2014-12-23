@@ -1,0 +1,25 @@
+# Dependencies - "fenced_code_blocks" is automatically enabled
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "autolink", "tables", "with_toc_data"]
+highlighter: pygments
+
+# Permalinks
+permalink: pretty
+relative_permalinks: true
+
+# Setup
+title: Hyde
+tagline: 'Jim-Ys technical blog'
+description: 'This blog shows how <b>awesome</b> static site blogging is. Welcome here'
+url: https://github.com/s1ngul4rity/s1ngul4rity.github.io
+baseurl: /
+
+author:
+  name: 'Jim-Y'
+  url: https://twitter.com/attilakling
+
+paginate: 5
+
+# Custom vars
+version: 0.0.1
